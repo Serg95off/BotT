@@ -4,6 +4,9 @@ import org.apache.log4j.BasicConfigurator;
 
 public class Main {
     public static void main(String[] arg){
+
+        Json.binace();
+
         BasicConfigurator.configure();
 
 try {

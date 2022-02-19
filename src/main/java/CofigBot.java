@@ -21,6 +21,9 @@ public class CofigBot extends TelegramLongPollingBot {
             String text= String.valueOf(update.getMessage().getText());
             //System.out.print("---------------------------------------------------------");
             System.out.print("id "+id+" TEST "+text);
+
+            Function f= new Function();
+            f.sendText(id,text);
         }
 
     }
